@@ -50,7 +50,21 @@
     font-size: 16px;
 }
 
+.links a {
+    color: #BA68C8;
+}
+
+.links a:hover {
+    transition: 0.2s;
+    color: #1a1823;
+}
+
+.links p {
+    color: #BA68C8;
+}
+
 .links h2 {
     font-weight: 500;
     font-size: 21px;
+    margin-bottom: 50px;
 }

@@ -11,6 +11,12 @@ export default function Links(){
                 <div className="general">
                     <div className="links">
                         <h2>Liens</h2>
+                        <div>
+                            <a href="https://github.com/Viazel" target="blank">Github</a>
+                            <p>Discord: <span style={{color: "#fff"}}>Viazel#7881</span></p>
+                            <a href="https://www.instagram.com/viazelyt/" target="blank">Instagram</a> <br/>
+                            <a href="https://twitter.com/ViazelYT" target="blank">Twitter</a>
+                        </div>
                     </div>
                     <div className="social-medias">
                         <h1>Réseaux sociaux</h1>
