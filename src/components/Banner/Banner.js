@@ -1,5 +1,4 @@
 import "./Banner.css";
-import logo from "../../assets/logo.png";
 
 export default function Banner(){
     return (
@@ -12,7 +11,7 @@ export default function Banner(){
                     <button className="button">INSCRIPTION</button>
                 </div>
             </div>
-            <img src={logo} alt=""/>
+            <img src={process.env.PUBLIC_URL + "/assets/logo.png"} alt=""/>
         </div>
     )
 }

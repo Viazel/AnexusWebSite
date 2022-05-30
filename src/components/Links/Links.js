@@ -1,5 +1,4 @@
 import "./Links.css";
-import logo from "../../assets/logo.png";
 
 export default function Links(){
     return (
@@ -8,7 +7,7 @@ export default function Links(){
                 <h1>NEWS</h1>
             </div>
             <div className="end">
-                <img src={logo} alt=""/>
+                <img src={process.env.PUBLIC_URL + "/assets/logo.png"} alt=""/>
                 <div className="general">
                     <div className="links">
                         <h2>Liens</h2>

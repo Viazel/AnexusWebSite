@@ -1,11 +1,9 @@
 import "./NavBar.css";
 
-import logo from "../../assets/logo.png"
-
 export default function NavBar() {
     return (
         <div className="navbar">
-            <img src={logo} alt=""/>
+            <img src={process.env.PUBLIC_URL + "/assets/logo.png"} alt=""/>
             <nav>
                 <ul>
                     <li><a href="lol">Accueil</a></li>
