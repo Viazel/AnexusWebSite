@@ -1,0 +1,31 @@
+.navbar {
+    position: relative;
+    height: 120px;
+}
+
+.navbar nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar ul {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #ffffff8c;
+    font-weight: 600;
+}
+
+.navbar img {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    height: 70px;
+    transform: translateY(-50%);
+}

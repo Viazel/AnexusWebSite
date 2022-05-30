@@ -1,0 +1,67 @@
+.banner {
+    position: relative;
+    background: url('https://anexusrp.fr/storage/img/bg2.png') center / cover no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 425px;
+}
+
+.banner img {
+    height: 306px;
+}
+
+.info {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 650px;
+    height: 100%;
+}
+
+.info h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 15px;
+}
+
+.info p {
+    margin-bottom: 15px;
+}
+
+.button {
+    height: 36px;
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 3px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    cursor: pointer;
+}
+
+.button:nth-child(1) {
+    background: #198754;
+}
+
+.button:nth-child(2) {
+    background: #DC3545;
+}
+
+.button:nth-child(1):hover {
+    background: #157347;
+}
+
+.button:nth-child(2):hover {
+    background: #bb2d3b;
+}
+
+.anexus {
+    font-size: 40px;
+    color: #BA68C8;
+}
