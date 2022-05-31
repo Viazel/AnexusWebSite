@@ -3,9 +3,6 @@ import "./Links.css";
 export default function Links(){
     return (
         <footer>
-            <div className="break">
-                <h1>NEWS</h1>
-            </div>
             <div className="end">
                 <img src={process.env.PUBLIC_URL + "/assets/logo.png"} alt=""/>
                 <div className="general">

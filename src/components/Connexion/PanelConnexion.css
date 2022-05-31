@@ -1,0 +1,116 @@
+.panel-connexion {
+    position: relative;
+    height: 440px;
+}
+
+.connexion-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 625px;
+    height: 380px;
+}
+
+.connexion-box form {
+    margin-top: 15px;
+    border-radius: 5px;
+    background: #272333;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    bottom: 25px;
+}
+
+.form-mail input, .form-password input {
+    width: 100%;
+    height: 38px;
+    text-indent: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    background: #292535;
+    border: none;
+    outline: #000 solid 1px;
+}
+
+.form-password, .form-mail {
+    width: 100%;
+}
+
+.form-mail h2, .form-password h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.form-mail {
+    margin-bottom: 20px;
+}
+
+.form-password {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.connexion-box h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #BA68C8;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90px;
+}
+
+.options input[type="submit"] {
+    width: 100%;
+    height: 38px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    background: #000A86;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+
+.options input[type="submit"]:hover {
+    background: #592660;
+}
+
+.remembering {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.remembering a {
+    color: #BA68C8;
+    font-weight: 500;
+}
+
+.check-remember {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-remember input {
+    margin-right: 8px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    transform: scale(1.3);
+}

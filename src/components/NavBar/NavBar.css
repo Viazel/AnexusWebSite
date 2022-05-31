@@ -20,6 +20,11 @@
 .navbar a {
     color: #ffffff8c;
     font-weight: 600;
+    transition: 0.2s;
+}
+
+.navbar a:hover {
+    color: #fff;
 }
 
 .navbar img {
