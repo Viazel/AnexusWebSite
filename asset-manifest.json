@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/AnexusWebSite/static/css/main.711a41be.css",
-    "main.js": "/AnexusWebSite/static/js/main.611f7b36.js",
+    "main.css": "/AnexusWebSite/static/css/main.45861bda.css",
+    "main.js": "/AnexusWebSite/static/js/main.8f56d608.js",
     "index.html": "/AnexusWebSite/index.html",
-    "main.711a41be.css.map": "/AnexusWebSite/static/css/main.711a41be.css.map",
-    "main.611f7b36.js.map": "/AnexusWebSite/static/js/main.611f7b36.js.map"
+    "main.45861bda.css.map": "/AnexusWebSite/static/css/main.45861bda.css.map",
+    "main.8f56d608.js.map": "/AnexusWebSite/static/js/main.8f56d608.js.map"
   },
   "entrypoints": [
-    "static/css/main.711a41be.css",
-    "static/js/main.611f7b36.js"
+    "static/css/main.45861bda.css",
+    "static/js/main.8f56d608.js"
   ]
 }
